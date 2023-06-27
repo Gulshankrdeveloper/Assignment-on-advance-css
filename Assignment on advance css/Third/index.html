@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third question</title>
+    <style>
+        .content{
+            position: absolute;
+            top: 10%;
+            left: 35%;
+            width: 350px;
+            height: 300px;
+            border: 2px solid black;
+            background-image: linear-gradient(to right,#16b5e6,blueviolet);
+            border-radius: 10px;
+        }
+        .heading{
+            display: flex;
+            justify-content: space-around;
+        }
+        .mainsection{
+            padding-left: 50px;
+        }
+        li{
+            font-weight: bold;
+        }
+        .button{
+            padding: 10px 100px;
+            margin: 15px 30px;
+            cursor: pointer;
+            background-image: linear-gradient(to right,#7af0e0,#45bd45);
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+        }
+        p{
+            color: white;
+            margin-top: 30px;
+        }
+
+        .content:hover{
+            transition: all 2s ease-in-out;
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+<body>
+        <div class="content">
+            <div class="heading">
+                <h1>#01</h1>
+                <p>Created On : 01/01/2023</p>
+            </div>
+
+            <div class="mainsection">
+                <h2>Important dates</h2>
+                <ul type="dotted">
+                    <li>January 26 - Republic Day</li>
+                    <li>August 15 - Independence Day</li>
+                    <li>October 2 - Gandhi Jayanti</li>
+                    <li>August 29 - National Sports Day</li>
+                </ul>
+            </div>
+            <div><button class="button">Mark As Done</button></div>
+        </div>
+    </div>
+</body>
+</html>
